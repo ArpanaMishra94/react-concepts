@@ -1,3 +1,10 @@
+
+// The useReducer Hook is used to store and update states, just like the useState Hook. 
+// It accepts a reducer function as its first parameter and the initial state as the second. 
+// useReducer returns an array that holds the current state value and a dispatch function to which you can pass an action and later invoke it.
+
+
+
 import React, { useReducer } from 'react';
 
 const reducer = (state, action) => {
