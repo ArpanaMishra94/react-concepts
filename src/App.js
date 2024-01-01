@@ -3,7 +3,8 @@ import './App.css';
 // import ReducerExample from './Hooks/useReducer/ReducerExample';
 // import EffectExample from './Hooks/useEffect/EffectExample';
 // import RefExample from './Hooks/useRef/RefExample';
-import LayoutExample from './Hooks/useLayout/LayoutExample';
+// import LayoutExample from './Hooks/useLayout/LayoutExample';
+import ContextExample from './Hooks/useContext/ContextExample';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <ReducerExample /> */}
       {/* <EffectExample /> */}
       {/* <RefExample /> */}
-      <LayoutExample/>
+      {/* <LayoutExample/> */}
+      <ContextExample/>
     </div>
   );
 }
