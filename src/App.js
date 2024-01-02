@@ -4,7 +4,8 @@ import './App.css';
 // import EffectExample from './Hooks/useEffect/EffectExample';
 // import RefExample from './Hooks/useRef/RefExample';
 // import LayoutExample from './Hooks/useLayout/LayoutExample';
-import ContextExample from './Hooks/useContext/ContextExample';
+// import ContextExample from './Hooks/useContext/ContextExample';
+import MemoExample from './Hooks/useMemo/MemoExample';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <EffectExample /> */}
       {/* <RefExample /> */}
       {/* <LayoutExample/> */}
-      <ContextExample/>
+      {/* <ContextExample/> */}
+      <MemoExample />
     </div>
   );
 }
