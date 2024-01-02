@@ -5,7 +5,8 @@ import './App.css';
 // import RefExample from './Hooks/useRef/RefExample';
 // import LayoutExample from './Hooks/useLayout/LayoutExample';
 // import ContextExample from './Hooks/useContext/ContextExample';
-import MemoExample from './Hooks/useMemo/MemoExample';
+// import MemoExample from './Hooks/useMemo/MemoExample';
+import CallbackExample from './Hooks/useCallback/CallbackExample';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <RefExample /> */}
       {/* <LayoutExample/> */}
       {/* <ContextExample/> */}
-      <MemoExample />
+      {/* <MemoExample /> */}
+      <CallbackExample />
     </div>
   );
 }
