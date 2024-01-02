@@ -5,7 +5,7 @@ import React, { useCallback, useState } from 'react';
 import Child from './Child';
 
 const CallbackExample = () => {
-    const [data, setData] = useState('Arp Data');
+    const [data] = useState('Arp Data');
     const [toggle, setToggle] = useState(false);
 
     const func = useCallback((name) => {
