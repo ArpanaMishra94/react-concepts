@@ -9,7 +9,8 @@ import './App.css';
 // import CallbackExample from './Hooks/useCallback/CallbackExample';
 // import BusinessRisk from './Table/BusinessRisk';
 // import Todolist from './Todolist';
-import ContextApi from './ContextApi';
+// import ContextApi from './ContextApi';
+import ThemeSwitcher from './ThemeSwitcher';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <CallbackExample /> */}
       {/* <BusinessRisk/> */}
       {/* <Todolist/> */}
-      <ContextApi/>
+      {/* <ContextApi/> */}
+      <ThemeSwitcher/>
     </div>
   );
 }
