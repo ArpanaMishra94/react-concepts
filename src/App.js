@@ -8,7 +8,8 @@ import './App.css';
 // import MemoExample from './Hooks/useMemo/MemoExample';
 // import CallbackExample from './Hooks/useCallback/CallbackExample';
 // import BusinessRisk from './Table/BusinessRisk';
-import Todolist from './Todolist';
+// import Todolist from './Todolist';
+import ContextApi from './ContextApi';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <MemoExample /> */}
       {/* <CallbackExample /> */}
       {/* <BusinessRisk/> */}
-      <Todolist/>
+      {/* <Todolist/> */}
+      <ContextApi/>
     </div>
   );
 }
