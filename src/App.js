@@ -10,7 +10,8 @@ import './App.css';
 // import BusinessRisk from './Table/BusinessRisk';
 // import Todolist from './Todolist';
 // import ContextApi from './ContextApi';
-import ThemeSwitcher from './ThemeSwitcher';
+// import ThemeSwitcher from './ThemeSwitcher';
+import Question1 from './MachineCodingPractice/Question1';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <BusinessRisk/> */}
       {/* <Todolist/> */}
       {/* <ContextApi/> */}
-      <ThemeSwitcher/>
+      {/* <ThemeSwitcher/> */}
+      <Question1/>
     </div>
   );
 }
